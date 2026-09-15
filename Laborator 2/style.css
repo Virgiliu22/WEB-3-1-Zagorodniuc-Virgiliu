@@ -1,0 +1,201 @@
+body {
+    font-family: Arial;
+    background-color: #f2f2f2;
+    margin: 0;
+    color: #222222;
+}
+
+header, nav, main, footer {
+    width: 900px;
+    max-width: 90%;
+    margin: auto;
+}
+
+header {
+    padding: 20px 0;
+}
+
+h1 {
+    color: #17365d;
+}
+
+h2 {
+    color: #244d73;
+}
+
+h3 {
+    color: #333333;
+}
+
+
+/* MENIU */
+
+nav {
+    background-color: #dce6f1;
+    padding: 12px;
+    border: 1px solid #cccccc;
+}
+
+nav a {
+    color: #174a7e;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* SECTIUNI */
+
+.tara,
+.comparativ,
+footer div {
+    background-color: white;
+    border: 1px solid #cccccc;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.tara {
+    border-left: 5px solid #244d73;
+}
+
+li {
+    margin: 4px 0;
+}
+
+
+/* TERMENI SUEDIA */
+
+dt {
+    color: #174a7e;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+dd {
+    margin-left: 20px;
+    margin-bottom: 8px;
+}
+
+
+/* IMAGINI */
+
+.poza-tara {
+    width: 300px;
+    height: 180px;
+    object-fit: cover;
+    border: 1px solid #cccccc;
+}
+
+
+/* STEAGURI */
+
+.steag {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 240px;
+    height: 150px;
+    border: 1px solid #777777;
+}
+
+.steag td {
+    padding: 0;
+}
+
+
+/* MOLDOVA */
+
+.md-albastru {
+    background-color: #0046AE;
+    width: 80px;
+    height: 150px;
+}
+
+.md-galben {
+    background-color: #FFD200;
+    width: 80px;
+}
+
+.md-rosu {
+    background-color: #CC092F;
+    width: 80px;
+}
+
+
+/* NORVEGIA */
+
+.n-rosu-st {
+    background-color: #BA0C2F;
+    width: 72px;
+    height: 54px;
+}
+
+.n-alb-v {
+    background-color: white;
+    width: 12px;
+}
+
+.n-albastru-v {
+    background-color: #00205B;
+    width: 24px;
+}
+
+.n-rosu-dr {
+    background-color: #BA0C2F;
+    width: 120px;
+}
+
+.n-alb-h {
+    background-color: white;
+    height: 12px;
+}
+
+.n-albastru-h {
+    background-color: #00205B;
+    height: 18px;
+}
+
+
+/* SUEDIA */
+
+.s-albastru-st {
+    background-color: #006AA7;
+    width: 72px;
+    height: 63px;
+}
+
+.s-galben-v {
+    background-color: #FECC00;
+    width: 24px;
+}
+
+.s-albastru-dr {
+    background-color: #006AA7;
+    width: 144px;
+}
+
+.s-galben-h {
+    background-color: #FECC00;
+    height: 24px;
+}
+
+
+/* TABEL COMPARATIV */
+
+.comparativ table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.comparativ th {
+    background-color: #dce6f1;
+}
+
+.comparativ th,
+.comparativ td {
+    border: 1px solid black;
+    padding: 7px;
+}
