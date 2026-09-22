@@ -28,7 +28,7 @@ h3 {
 }
 
 
-/* MENIU */
+ 
 
 nav {
     background-color: #dce6f1;
@@ -47,7 +47,7 @@ nav a:hover {
 }
 
 
-/* SECTIUNI */
+
 
 .tara,
 .comparativ,
@@ -67,7 +67,7 @@ li {
 }
 
 
-/* TERMENI SUEDIA */
+ 
 
 dt {
     color: #174a7e;
@@ -81,7 +81,7 @@ dd {
 }
 
 
-/* IMAGINI */
+ 
 
 .poza-tara {
     width: 300px;
@@ -91,7 +91,7 @@ dd {
 }
 
 
-/* STEAGURI */
+ 
 
 .steag {
     border-collapse: collapse;
@@ -106,7 +106,7 @@ dd {
 }
 
 
-/* MOLDOVA */
+ 
 
 .md-albastru {
     background-color: #0046AE;
@@ -125,7 +125,7 @@ dd {
 }
 
 
-/* NORVEGIA */
+ 
 
 .n-rosu-st {
     background-color: #BA0C2F;
@@ -159,7 +159,7 @@ dd {
 }
 
 
-/* SUEDIA */
+ 
 
 .s-albastru-st {
     background-color: #006AA7;
@@ -183,7 +183,7 @@ dd {
 }
 
 
-/* TABEL COMPARATIV */
+ 
 
 .comparativ table {
     border-collapse: collapse;
