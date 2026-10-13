@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Catalog electronic</title>
+</head>
+
+<body>
+
+    <h1>CATALOG ELECTRONIC</h1>
+
+    <h3 id="numarElevi"></h3>
+
+    <div id="catalog"></div>
+
+    <hr>
+
+    <h2>Adaugă elev</h2>
+
+    <input type="text" id="nume" placeholder="Nume">
+    <input type="number" id="varsta" placeholder="Vârsta">
+    <input type="number" id="nota" placeholder="Nota">
+
+    <button onclick="adaugaElev()">Adaugă elev</button>
+
+    <hr>
+
+    <h2>Șterge elev</h2>
+
+    <input type="text" id="numeStergere" placeholder="Numele elevului">
+
+    <button onclick="stergeElev()">Șterge elev</button>
+
+    <hr>
+
+    <h2>Caută elev</h2>
+
+    <input type="text" id="numeCautare" placeholder="Numele elevului">
+
+    <button onclick="cautaElev()">Caută</button>
+
+    <p id="rezultatCautare"></p>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
