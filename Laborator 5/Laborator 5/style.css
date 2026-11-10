@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+
+#pagina {
+    display: flex;
+    height: 100vh;
+}
+
+#stanga {
+    width: 350px;
+    padding: 10px;
+    border-right: 1px solid gray;
+}
+
+#dreapta {
+    flex: 1;
+    padding: 10px;
+}
+
+#cardContainer {
+    display: flex;
+    height: 100%;
+}
+
+.card {
+    border: 1px solid gray;
+    width: 140px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card img {
+    width: 40px;
+}
